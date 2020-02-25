@@ -1,0 +1,42 @@
+.ui-button {
+  padding: 9px 10px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 200ms;
+  transition-property: background-color, color;
+  border: 0;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ui-button--rounded {
+  border-radius: 100px;
+}
+
+.ui-button--bordered-green {
+  padding: 7px 10px;
+  border-color: #1DD1A1;
+  color: #1DD1A1;
+  border: 2px solid;
+}
+
+.ui-button--bordered-green:hover {
+  background-color: #1DD1A1;
+  color: #fff;
+}
+
+
+.ui-button--contained-green {
+  background-color: #1DD1A1;
+  color: #fff;
+}
+
+.ui-button--contained-green:hover {
+  background-color: #00b894;
+  border-color: #00b894;
+  color: #fff;
+}
