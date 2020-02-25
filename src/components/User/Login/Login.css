@@ -29,8 +29,16 @@
   padding: 5px 10px;
 }
 
+.user-login__form-control input:focus {
+  outline: 0;
+  border-color: #5988df;
+}
+
 .user-login__submit-button {
   width: 100%;
   margin-top: 30px;
-  margin-bottom: 30px;
+}
+
+.user-login__error {
+  color: red;
 }
