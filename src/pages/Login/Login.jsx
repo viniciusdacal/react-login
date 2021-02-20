@@ -2,7 +2,9 @@ import React from 'react';
 import UserLogin from 'components/User/Login/Login';
 
 const PagesLogin = () => (
-  <UserLogin />
+  <div className="container">
+    <UserLogin />
+  </div>
 );
 
 export default PagesLogin;
